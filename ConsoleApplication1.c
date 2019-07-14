@@ -1,13 +1,12 @@
 ﻿/*易错程序*/
 #include <stdlib.h>
-void main1()
+
+void main()
 {
 	int num = 10;
+	
 	printf("%f", (float)num);
-}
-int main()
-{
-	main1();
+	//main1;
 
 }
 
