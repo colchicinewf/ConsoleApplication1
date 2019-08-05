@@ -35,6 +35,12 @@ void main5()
 	printf("%d\n", 5 % -3);
 	//看前面的符号
 }
+void main6()
+{
+	int a = 5;
+	//printf("%d", (-a)++);
+	printf("%d", -a++);
+}
 int main()
 {	 
 	main4();
