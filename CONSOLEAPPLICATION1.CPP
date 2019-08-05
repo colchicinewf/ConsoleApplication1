@@ -27,8 +27,17 @@ void main4()
 	char ch = -7;
 	printf("%p", &ch);
 }
-int main()
+void main5()
 {
+	printf("%d\n", 3 % -5);
+	printf("%d\n", -3 % 5);
+	printf("%d\n", -5 % 3);
+	printf("%d\n", 5 % -3);
+	//看前面的符号
+}
+int main()
+{	 
+	main4();
 	main3();
 	main2();
 	main1();
