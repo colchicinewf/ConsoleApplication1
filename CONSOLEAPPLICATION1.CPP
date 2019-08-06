@@ -42,7 +42,7 @@ void main6()
 	printf("%d", -a++);
 }
 int main()
-{	 
+{
 	main4();
 	main3();
 	main2();
